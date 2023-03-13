@@ -1,0 +1,65 @@
+/* Define o estilo global da página */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+/* Estiliza o contêiner da calculadora */
+.calculator {
+  max-width: 260px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+/* Estiliza a entrada de texto */
+#answer {
+  display: block;
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5em;
+  text-align: right;
+  background-color: #f8f8f8;
+}
+/* Define o estilo dos botões da calculadora */
+button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #337ab7;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+#igual {
+  background-color: #07b524;
+  width: 115px;
+}
+#limpar {
+  background-color: #f66501;
+  width: 115px;
+}
+#apagar {
+  background-color: #f66501;
+}
+/* Define o estilo dos botões quando estão com o foco */
+button:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #337ab7;
+}
+/* Define o estilo dos botões quando são pressionados */
+button:active {
+  transform: translate(0px, 2px);
+  box-shadow: none;
+}
